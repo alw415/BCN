@@ -46019,13 +46019,27 @@ class BCNNav extends _react.default.Component {
   render() {
     return _react.default.createElement(_reactBootstrap.Navbar, null, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.Navbar.Brand, null, _react.default.createElement("a", {
       href: "/"
-    }, "Black Creators Network"))));
+    }, " | Black Creators Network"))), _react.default.createElement(_reactBootstrap.Nav, {
+      pullLeft: true
+    }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.Navbar.Brand, null, _react.default.createElement("a", {
+      href: "/"
+    }, " | About Us")))), _react.default.createElement(_reactBootstrap.Nav, {
+      pullLeft: true
+    }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.Navbar.Brand, null, _react.default.createElement("a", {
+      href: "/"
+    }, " | What We Do")))), _react.default.createElement(_reactBootstrap.Nav, {
+      pullLeft: true
+    }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.Navbar.Brand, null, _react.default.createElement("a", {
+      href: "/"
+    }, " | Get Involved")))));
   }
 
 }
 
 exports.default = BCNNav;
-},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js"}],"components/BCN_Welcome_Page.jsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js"}],"components/BlkCreators_logo.jpg":[function(require,module,exports) {
+module.exports = "/BlkCreators_logo.1c2a9a7f.jpg";
+},{}],"components/BCN_Welcome_Page.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -46035,9 +46049,13 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _reactBootstrap = _interopRequireDefault(require("react-bootstrap"));
+var _reactBootstrap = require("react-bootstrap");
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _BCN_NavBar = _interopRequireDefault(require("./BCN_NavBar"));
+
+var _BlkCreators_logo = _interopRequireDefault(require("./BlkCreators_logo.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -46045,13 +46063,23 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 class Homepage extends _react.Component {
   render() {
-    return _react.default.createElement("p", null, " Hello ");
+    return _react.default.createElement("div", null, _react.default.createElement(_BCN_NavBar.default, null), _react.default.createElement(_reactBootstrap.Grid, null, _react.default.createElement("div", {
+      className: "welcome"
+    }, _react.default.createElement("h1", null, " Welcome to the Black Creators Network")), _react.default.createElement("div", {
+      className: "logo"
+    }, _react.default.createElement("img", {
+      src: _BlkCreators_logo.default
+    }), _react.default.createElement("div", {
+      className: "pictext"
+    }, "PROVIDING SUPPORT FOR BLACK INNOVATORS WORLDWIDE!!!")), _react.default.createElement("div", {
+      className: "info"
+    }, _react.default.createElement("h3", null, " Mission statement goes here"))));
   }
 
 }
 
 exports.default = Homepage;
-},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx"}],"components/paths.jsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","react-dom":"../node_modules/react-dom/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx","./BlkCreators_logo.jpg":"components/BlkCreators_logo.jpg"}],"components/paths.jsx":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireWildcard(require("react"));
