@@ -46045,7 +46045,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 class Homepage extends _react.Component {
   render() {
-    return _react.default.createElement("h1", null, " Hello ");
+    return _react.default.createElement("p", null, " Hello ");
   }
 
 }
