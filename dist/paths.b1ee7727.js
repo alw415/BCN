@@ -46039,6 +46039,12 @@ class BCNNav extends _react.default.Component {
 exports.default = BCNNav;
 },{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js"}],"components/BlkCreators_logo.jpg":[function(require,module,exports) {
 module.exports = "/BlkCreators_logo.1c2a9a7f.jpg";
+},{}],"components/twitter.png":[function(require,module,exports) {
+module.exports = "/twitter.b3df34c8.png";
+},{}],"components/insta.png":[function(require,module,exports) {
+module.exports = "/insta.ba6ca2fc.png";
+},{}],"components/facebook.png":[function(require,module,exports) {
+module.exports = "/facebook.01e0b95a.png";
 },{}],"components/BCN_Welcome_Page.jsx":[function(require,module,exports) {
 "use strict";
 
@@ -46057,6 +46063,12 @@ var _BCN_NavBar = _interopRequireDefault(require("./BCN_NavBar"));
 
 var _BlkCreators_logo = _interopRequireDefault(require("./BlkCreators_logo.jpg"));
 
+var _twitter = _interopRequireDefault(require("./twitter.png"));
+
+var _insta = _interopRequireDefault(require("./insta.png"));
+
+var _facebook = _interopRequireDefault(require("./facebook.png"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
@@ -46073,13 +46085,39 @@ class Homepage extends _react.Component {
       className: "pictext"
     }, "PROVIDING SUPPORT FOR BLACK INNOVATORS WORLDWIDE!!!")), _react.default.createElement("div", {
       className: "info"
-    }, _react.default.createElement("h3", null, "The Black Creators Network provides support for black innovators by establishing a space for businesses to be promoted, informative resources to be exchanged, and community to be made by connecting individuals with one another"))));
+    }, _react.default.createElement("h3", null, "The Black Creators Network provides support for black innovators by establishing a space for businesses to be promoted, informative resources to be exchanged, and community to be made by connecting individuals with one another")), _react.default.createElement("div", {
+      className: "links"
+    }, _react.default.createElement("div", {
+      className: "twitter-profile"
+    }, _react.default.createElement("a", {
+      href: "https://twitter.com/blkcreators"
+    }, _react.default.createElement("img", {
+      src: _twitter.default,
+      width: "200",
+      height: "200"
+    }))), _react.default.createElement("div", {
+      className: "insta-profile"
+    }, _react.default.createElement("a", {
+      href: "https://www.instagram.com/blkcreators/?hl=en"
+    }, _react.default.createElement("img", {
+      src: _insta.default,
+      width: "200",
+      height: "200"
+    }))), _react.default.createElement("div", {
+      className: "facebook-profile"
+    }, _react.default.createElement("a", {
+      href: "https://www.facebook.com/blkcreatorsnetwork/"
+    }, _react.default.createElement("img", {
+      src: _facebook.default,
+      width: "200",
+      height: "200"
+    }))))));
   }
 
 }
 
 exports.default = Homepage;
-},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","react-dom":"../node_modules/react-dom/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx","./BlkCreators_logo.jpg":"components/BlkCreators_logo.jpg"}],"components/Drew.PNG":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","react-dom":"../node_modules/react-dom/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx","./BlkCreators_logo.jpg":"components/BlkCreators_logo.jpg","./twitter.png":"components/twitter.png","./insta.png":"components/insta.png","./facebook.png":"components/facebook.png"}],"components/Drew.PNG":[function(require,module,exports) {
 module.exports = "/Drew.257f0421.PNG";
 },{}],"components/Angel.PNG":[function(require,module,exports) {
 module.exports = "/Angel.2545d851.PNG";
@@ -46344,7 +46382,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53674" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53226" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
