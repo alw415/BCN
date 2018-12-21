@@ -6,7 +6,6 @@ body {
 
 }
 img {
-    width: 450px;
     float: left;
 }
 
@@ -78,5 +77,177 @@ img {
 
 .info {
     color: white;
+}
+
+.Rati-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Rati-text {
+  text-align: center;
+  color: white;
+}
+
+
+.Diante-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Diante-text {
+  text-align: center;
+  color: white;
+}
+
+.Mel-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Mel-text {
+  text-align: center;
+  color: white;
+}
+
+.Derrick-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Derrick-text {
+  text-align: center;
+  color: white;
+}
+
+.Kenny-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Kenny-text {
+  text-align: center;
+  color: white;
+}
+
+.Skool-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Skool-text {
+  text-align: center;
+  color: white;
+}
+
+.Kae-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Kae-text {
+  text-align: center;
+  color: white;
+}
+
+.Andrew-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Andrew-text {
+  text-align: center;
+  color: white;
+}
+
+.Angel-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Angel-text {
+  text-align: center;
+  color: white;
+}
+
+.Greg-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Greg-text {
+  text-align: center;
+  color: white;
+}
+
+.Jerome-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Jerome-text {
+  text-align: center;
+  color: white;
+}
+
+.Juice-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Juice-text {
+  text-align: center;
+  color: white;
+}
+
+.Titi-info {
+  border: 1px solid;
+  border-color: white;
+  float: left;
+}
+
+.Titi-text {
+  text-align: center;
+  color: white;
+}
+
+.founders {
+  background-color: #5b98d6;
+}
+
+.founders-label {
+  color: white;
+}
+
+.vision-label {
+  color: white;
+}
+
+.mission-label {
+  color: white;
+}
+
+.mission-statement {
+  color: white;
+}
+
+.vision-statement {
+  color: white;
+}
+
+.page {
+  background-color: #5b98d6;
 }
 

@@ -46022,7 +46022,7 @@ class BCNNav extends _react.default.Component {
     }, " | Black Creators Network"))), _react.default.createElement(_reactBootstrap.Nav, {
       pullLeft: true
     }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.Navbar.Brand, null, _react.default.createElement("a", {
-      href: "/"
+      href: "/AboutUs"
     }, " | About Us")))), _react.default.createElement(_reactBootstrap.Nav, {
       pullLeft: true
     }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.Navbar.Brand, null, _react.default.createElement("a", {
@@ -46073,13 +46073,217 @@ class Homepage extends _react.Component {
       className: "pictext"
     }, "PROVIDING SUPPORT FOR BLACK INNOVATORS WORLDWIDE!!!")), _react.default.createElement("div", {
       className: "info"
-    }, _react.default.createElement("h3", null, " Mission statement goes here"))));
+    }, _react.default.createElement("h3", null, "The Black Creators Network provides support for black innovators by establishing a space for businesses to be promoted, informative resources to be exchanged, and community to be made by connecting individuals with one another"))));
   }
 
 }
 
 exports.default = Homepage;
-},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","react-dom":"../node_modules/react-dom/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx","./BlkCreators_logo.jpg":"components/BlkCreators_logo.jpg"}],"components/paths.jsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","react-dom":"../node_modules/react-dom/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx","./BlkCreators_logo.jpg":"components/BlkCreators_logo.jpg"}],"components/Drew.PNG":[function(require,module,exports) {
+module.exports = "/Drew.257f0421.PNG";
+},{}],"components/Angel.PNG":[function(require,module,exports) {
+module.exports = "/Angel.2545d851.PNG";
+},{}],"components/derrick.PNG":[function(require,module,exports) {
+module.exports = "/derrick.60ea23a4.PNG";
+},{}],"components/Diante.PNG":[function(require,module,exports) {
+module.exports = "/Diante.2b816c9a.PNG";
+},{}],"components/greg.PNG":[function(require,module,exports) {
+module.exports = "/greg.0127e696.PNG";
+},{}],"components/Jerome.PNG":[function(require,module,exports) {
+module.exports = "/Jerome.d311ea1b.PNG";
+},{}],"components/Juice.PNG":[function(require,module,exports) {
+module.exports = "/Juice.d97b31cb.PNG";
+},{}],"components/Kae.PNG":[function(require,module,exports) {
+module.exports = "/Kae.fcdec41f.PNG";
+},{}],"components/Kenny.PNG":[function(require,module,exports) {
+module.exports = "/Kenny.f15abe85.PNG";
+},{}],"components/Mel.PNG":[function(require,module,exports) {
+module.exports = "/Mel.af08e1f7.PNG";
+},{}],"components/Rati.PNG":[function(require,module,exports) {
+module.exports = "/Rati.639f6234.PNG";
+},{}],"components/Skool.PNG":[function(require,module,exports) {
+module.exports = "/Skool.3ce93443.PNG";
+},{}],"components/titi.PNG":[function(require,module,exports) {
+module.exports = "/titi.8e704dae.PNG";
+},{}],"components/About_Us.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _reactBootstrap = require("react-bootstrap");
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _BCN_NavBar = _interopRequireDefault(require("./BCN_NavBar"));
+
+var _Drew = _interopRequireDefault(require("./Drew.PNG"));
+
+var _Angel = _interopRequireDefault(require("./Angel.PNG"));
+
+var _derrick = _interopRequireDefault(require("./derrick.PNG"));
+
+var _Diante = _interopRequireDefault(require("./Diante.PNG"));
+
+var _greg = _interopRequireDefault(require("./greg.PNG"));
+
+var _Jerome = _interopRequireDefault(require("./Jerome.PNG"));
+
+var _Juice = _interopRequireDefault(require("./Juice.PNG"));
+
+var _Kae = _interopRequireDefault(require("./Kae.PNG"));
+
+var _Kenny = _interopRequireDefault(require("./Kenny.PNG"));
+
+var _Mel = _interopRequireDefault(require("./Mel.PNG"));
+
+var _Rati = _interopRequireDefault(require("./Rati.PNG"));
+
+var _Skool = _interopRequireDefault(require("./Skool.PNG"));
+
+var _titi = _interopRequireDefault(require("./titi.PNG"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+class About extends _react.Component {
+  render() {
+    return _react.default.createElement("div", {
+      className: "page"
+    }, _react.default.createElement(_BCN_NavBar.default, null), _react.default.createElement(_reactBootstrap.Grid, null, _react.default.createElement("div", {
+      className: "mission"
+    }, _react.default.createElement("div", {
+      className: "mission-label"
+    }, _react.default.createElement("h1", null, "Mission")), _react.default.createElement("div", {
+      className: "mission-statement"
+    }, _react.default.createElement("p", null, "The Black Creators Network provides support for black innovators by establishing a space for businesses to be promoted, informative resources to be exchanged, and community to be made by connecting individuals with one another"))), _react.default.createElement("div", {
+      className: "vision"
+    }, _react.default.createElement("div", {
+      className: "vision-label"
+    }, _react.default.createElement("h1", null, "Vision")), _react.default.createElement("div", {
+      className: "vision-statement"
+    }, _react.default.createElement("p", null, "To create a space for creators to network and have a support system to bounce ideas off of and get feedback to perfect their craft. To help people realize that they can follow their dreams"))), _react.default.createElement("div", {
+      className: "founders"
+    }, _react.default.createElement("div", {
+      className: "founders-label"
+    }, _react.default.createElement("h1", null, "Founders")), _react.default.createElement("div", {
+      className: "founders-list"
+    }, _react.default.createElement("div", {
+      className: "Rati-info"
+    }, _react.default.createElement("img", {
+      src: _Rati.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Rati-text"
+    }, "Rati", _react.default.createElement("p", null, " President "))), _react.default.createElement("div", {
+      className: "Diante-info"
+    }, _react.default.createElement("img", {
+      src: _Diante.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Diante-text"
+    }, "Diante", _react.default.createElement("p", null, " Vice President "))), _react.default.createElement("div", {
+      className: "Mel-info"
+    }, _react.default.createElement("img", {
+      src: _Mel.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Mel-text"
+    }, "Mel", _react.default.createElement("p", null, " Admin "))), _react.default.createElement("div", {
+      className: "Derrick-info"
+    }, _react.default.createElement("img", {
+      src: _derrick.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Derrick-text"
+    }, "Derrick", _react.default.createElement("p", null, " Admin "))), _react.default.createElement("div", {
+      className: "Kenny-info"
+    }, _react.default.createElement("img", {
+      src: _Kenny.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Kenny-text"
+    }, "Kendra", _react.default.createElement("p", null, " Treasurer/CFO "))), _react.default.createElement("div", {
+      className: "Skool-info"
+    }, _react.default.createElement("img", {
+      src: _Skool.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Skool-text"
+    }, "Will", _react.default.createElement("p", null, "Director"))), _react.default.createElement("div", {
+      className: "Kae-info"
+    }, _react.default.createElement("img", {
+      src: _Kae.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Kae-text"
+    }, "Akaela", _react.default.createElement("p", null, "Public Relations Chair"))), _react.default.createElement("div", {
+      className: "Andrew-info"
+    }, _react.default.createElement("img", {
+      src: _Drew.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Andrew-text"
+    }, "Andrew", _react.default.createElement("p", null, "Head of Tech Department"))), _react.default.createElement("div", {
+      className: "Angel-info"
+    }, _react.default.createElement("img", {
+      src: _Angel.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Angel-text"
+    }, "Angel", _react.default.createElement("p", null, "Head of Media Department"))), _react.default.createElement("div", {
+      className: "Greg-info"
+    }, _react.default.createElement("img", {
+      src: _greg.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Greg-text"
+    }, "Greg", _react.default.createElement("p", null, "Head of Culinary Department"))), _react.default.createElement("div", {
+      className: "Jerome-info"
+    }, _react.default.createElement("img", {
+      src: _Jerome.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Jerome-text"
+    }, "Jerome", _react.default.createElement("p", null, "Head of Music Department"))), _react.default.createElement("div", {
+      className: "Juice-info"
+    }, _react.default.createElement("img", {
+      src: _Juice.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Juice-text"
+    }, "Juice", _react.default.createElement("p", null, "Head of Writing Department"))), _react.default.createElement("div", {
+      className: "Titi-info"
+    }, _react.default.createElement("img", {
+      src: _titi.default,
+      width: "250",
+      height: "400"
+    }), _react.default.createElement("div", {
+      className: "Titi-text"
+    }, "Titi", _react.default.createElement("p", null, "Head of Beauty Department")))))));
+  }
+
+}
+
+exports.default = About;
+},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","react-dom":"../node_modules/react-dom/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx","./Drew.PNG":"components/Drew.PNG","./Angel.PNG":"components/Angel.PNG","./derrick.PNG":"components/derrick.PNG","./Diante.PNG":"components/Diante.PNG","./greg.PNG":"components/greg.PNG","./Jerome.PNG":"components/Jerome.PNG","./Juice.PNG":"components/Juice.PNG","./Kae.PNG":"components/Kae.PNG","./Kenny.PNG":"components/Kenny.PNG","./Mel.PNG":"components/Mel.PNG","./Rati.PNG":"components/Rati.PNG","./Skool.PNG":"components/Skool.PNG","./titi.PNG":"components/titi.PNG"}],"components/paths.jsx":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireWildcard(require("react"));
@@ -46089,6 +46293,8 @@ var _reactDom = _interopRequireDefault(require("react-dom"));
 var _reactRouterDom = require("react-router-dom");
 
 var _BCN_Welcome_Page = _interopRequireDefault(require("./BCN_Welcome_Page"));
+
+var _About_Us = _interopRequireDefault(require("./About_Us"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -46102,13 +46308,16 @@ class BCN extends _react.Component {
       exact: true,
       path: "/",
       component: _BCN_Welcome_Page.default
+    }), _react.default.createElement(_reactRouterDom.Route, {
+      path: "/AboutUs",
+      component: _About_Us.default
     })))));
   }
 
 }
 
 _reactDom.default.render(_react.default.createElement(BCN, null), document.getElementById('home'));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/es/index.js","./BCN_Welcome_Page":"components/BCN_Welcome_Page.jsx"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/es/index.js","./BCN_Welcome_Page":"components/BCN_Welcome_Page.jsx","./About_Us":"components/About_Us.jsx"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -46135,7 +46344,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61914" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53674" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

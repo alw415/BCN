@@ -14,7 +14,7 @@ export default class BCNNav extends React.Component{
                 <Nav pullLeft>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href="/"> | About Us</a>
+                            <a href="/AboutUs"> | About Us</a>
                         </Navbar.Brand>
                     </Navbar.Header>
                 </Nav>

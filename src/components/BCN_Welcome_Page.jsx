@@ -22,7 +22,7 @@ export default class Homepage extends Component {
                         </div>
                     </div> 
                     <div className="info">
-                         <h3> Mission statement goes here</h3>
+                         <h3>The Black Creators Network provides support for black innovators by establishing a space for businesses to be promoted, informative resources to be exchanged, and community to be made by connecting individuals with one another</h3>
                     </div>
                  </Grid>
                </div> 
