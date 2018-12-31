@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Homepage from './BCN_Welcome_Page';
 import About from './About_Us';
+import WWD from './BCN_WWD';
 
 class BCN extends Component {
     render(){
@@ -13,6 +14,7 @@ class BCN extends Component {
                         <Switch>
                             <Route exact path="/" component={Homepage} />
                             <Route path="/AboutUs" component={About} />
+                            <Route path="/WhatWeDo" component={WWD} />
                         </Switch>
                     </Suspense>
                 </div>

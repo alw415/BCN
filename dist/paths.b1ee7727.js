@@ -46026,12 +46026,23 @@ class BCNNav extends _react.default.Component {
     }, " | About Us")))), _react.default.createElement(_reactBootstrap.Nav, {
       pullLeft: true
     }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.Navbar.Brand, null, _react.default.createElement("a", {
-      href: "/"
+      href: "/WhatWeDo"
     }, " | What We Do")))), _react.default.createElement(_reactBootstrap.Nav, {
       pullLeft: true
-    }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.Navbar.Brand, null, _react.default.createElement("a", {
+    }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.NavDropdown, {
+      eventKey: 2,
+      title: "| Get Involved",
+      id: "GI-nav-dropdown"
+    }, _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.1,
       href: "/"
-    }, " | Get Involved")))));
+    }, " General "), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.2,
+      href: "/AboutUs"
+    }, "Specific Interests"), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.3,
+      href: "/WhatWeDo"
+    }, "Point System")))));
   }
 
 }
@@ -46154,8 +46165,6 @@ exports.default = void 0;
 var _react = _interopRequireWildcard(require("react"));
 
 var _reactBootstrap = require("react-bootstrap");
-
-var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _BCN_NavBar = _interopRequireDefault(require("./BCN_NavBar"));
 
@@ -46321,7 +46330,41 @@ class About extends _react.Component {
 }
 
 exports.default = About;
-},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","react-dom":"../node_modules/react-dom/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx","./Drew.PNG":"components/Drew.PNG","./Angel.PNG":"components/Angel.PNG","./derrick.PNG":"components/derrick.PNG","./Diante.PNG":"components/Diante.PNG","./greg.PNG":"components/greg.PNG","./Jerome.PNG":"components/Jerome.PNG","./Juice.PNG":"components/Juice.PNG","./Kae.PNG":"components/Kae.PNG","./Kenny.PNG":"components/Kenny.PNG","./Mel.PNG":"components/Mel.PNG","./Rati.PNG":"components/Rati.PNG","./Skool.PNG":"components/Skool.PNG","./titi.PNG":"components/titi.PNG"}],"components/paths.jsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx","./Drew.PNG":"components/Drew.PNG","./Angel.PNG":"components/Angel.PNG","./derrick.PNG":"components/derrick.PNG","./Diante.PNG":"components/Diante.PNG","./greg.PNG":"components/greg.PNG","./Jerome.PNG":"components/Jerome.PNG","./Juice.PNG":"components/Juice.PNG","./Kae.PNG":"components/Kae.PNG","./Kenny.PNG":"components/Kenny.PNG","./Mel.PNG":"components/Mel.PNG","./Rati.PNG":"components/Rati.PNG","./Skool.PNG":"components/Skool.PNG","./titi.PNG":"components/titi.PNG"}],"components/BCN_WWD.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _reactBootstrap = require("react-bootstrap");
+
+var _BCN_NavBar = _interopRequireDefault(require("./BCN_NavBar"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+class WWD extends _react.Component {
+  render() {
+    return _react.default.createElement("div", {
+      className: "WWD_page"
+    }, _react.default.createElement(_BCN_NavBar.default, null), _react.default.createElement(_reactBootstrap.Grid, null, _react.default.createElement("div", {
+      className: "Promos"
+    }, _react.default.createElement("h2", null, _react.default.createElement("u", null, "SOCIAL MEDIA PROMOTIONS")), _react.default.createElement("p", null, "As supporters of innovation, if you are a small business owner, musician, artist, developer, or media creator, this platform is here to develop you brand. We post information about people's businesses on all of our social media platforms. We publically share and support creators and provide our followers with information on where to find them. "), _react.default.createElement("p", null, " If you would like for us to help your craft or product reach more individuals there's a multitude of ways to inform us. "), _react.default.createElement("p", null, " You can email us at ", _react.default.createElement("h3", null, "blackcreatorsnetwork@gmail.com"), " follow us and message us directly on our social media pages (found on our home page) or contact the head of the specific department your craft or business represents (insert link to \"Get Invloved\" tab here"), _react.default.createElement("p", null, " From there, let us know what your company or brand is and show us a few examples of your work so we can work on promoting you!")), _react.default.createElement("div", {
+      className: "Community"
+    }, _react.default.createElement("h2", null, _react.default.createElement("u", null, "PROVIDE COMMUNITY")), _react.default.createElement("p", null)), _react.default.createElement("div", {
+      className: "WorkComp"
+    }, _react.default.createElement("h2", null, _react.default.createElement("u", null, "WORKSHOPS AND COMPETITIONS")), _react.default.createElement("p", null))));
+  }
+
+}
+
+exports.default = WWD;
+},{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/es/index.js","./BCN_NavBar":"components/BCN_NavBar.jsx"}],"components/paths.jsx":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireWildcard(require("react"));
@@ -46333,6 +46376,8 @@ var _reactRouterDom = require("react-router-dom");
 var _BCN_Welcome_Page = _interopRequireDefault(require("./BCN_Welcome_Page"));
 
 var _About_Us = _interopRequireDefault(require("./About_Us"));
+
+var _BCN_WWD = _interopRequireDefault(require("./BCN_WWD"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -46349,13 +46394,16 @@ class BCN extends _react.Component {
     }), _react.default.createElement(_reactRouterDom.Route, {
       path: "/AboutUs",
       component: _About_Us.default
+    }), _react.default.createElement(_reactRouterDom.Route, {
+      path: "/WhatWeDo",
+      component: _BCN_WWD.default
     })))));
   }
 
 }
 
 _reactDom.default.render(_react.default.createElement(BCN, null), document.getElementById('home'));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/es/index.js","./BCN_Welcome_Page":"components/BCN_Welcome_Page.jsx","./About_Us":"components/About_Us.jsx"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-router-dom":"../node_modules/react-router-dom/es/index.js","./BCN_Welcome_Page":"components/BCN_Welcome_Page.jsx","./About_Us":"components/About_Us.jsx","./BCN_WWD":"components/BCN_WWD.jsx"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -46382,7 +46430,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53226" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60701" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

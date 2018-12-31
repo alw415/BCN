@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Nav } from 'react-bootstrap';
+import {Navbar, Nav, MenuItem, NavDropdown } from 'react-bootstrap';
 
 
 export default class BCNNav extends React.Component{
@@ -21,15 +21,17 @@ export default class BCNNav extends React.Component{
                 <Nav pullLeft>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href="/"> | What We Do</a>
+                            <a href="/WhatWeDo"> | What We Do</a>
                         </Navbar.Brand>
                     </Navbar.Header>
                 </Nav>
                 <Nav pullLeft>
                     <Navbar.Header>
-                        <Navbar.Brand>
-                            <a href="/"> | Get Involved</a>
-                        </Navbar.Brand>
+                        <NavDropdown eventKey={2} title="| Get Involved" id="GI-nav-dropdown">
+                            <MenuItem eventKey={2.1} href="/"> General </MenuItem>
+                            <MenuItem eventKey={2.2} href="/AboutUs">Specific Interests</MenuItem>
+                            <MenuItem eventKey={2.3} href="/WhatWeDo">Point System</MenuItem>
+                        </NavDropdown>
                     </Navbar.Header>
                 </Nav>
             </Navbar>

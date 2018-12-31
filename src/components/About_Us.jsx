@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Grid} from 'react-bootstrap';
-import ReactDOM from 'react-dom';
 import Navbar from './BCN_NavBar';
 import Andrew from './Drew.PNG';
 import Angel from './Angel.PNG';
