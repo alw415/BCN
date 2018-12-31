@@ -27,11 +27,13 @@ export default class BCNNav extends React.Component{
                 </Nav>
                 <Nav pullLeft>
                     <Navbar.Header>
+                        <Navbar.Brand>
                         <NavDropdown eventKey={2} title="| Get Involved" id="GI-nav-dropdown">
                             <MenuItem eventKey={2.1} href="/"> General </MenuItem>
                             <MenuItem eventKey={2.2} href="/AboutUs">Specific Interests</MenuItem>
                             <MenuItem eventKey={2.3} href="/WhatWeDo">Point System</MenuItem>
                         </NavDropdown>
+                        </Navbar.Brand>
                     </Navbar.Header>
                 </Nav>
             </Navbar>

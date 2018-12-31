@@ -46029,7 +46029,7 @@ class BCNNav extends _react.default.Component {
       href: "/WhatWeDo"
     }, " | What We Do")))), _react.default.createElement(_reactBootstrap.Nav, {
       pullLeft: true
-    }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.NavDropdown, {
+    }, _react.default.createElement(_reactBootstrap.Navbar.Header, null, _react.default.createElement(_reactBootstrap.Navbar.Brand, null, _react.default.createElement(_reactBootstrap.NavDropdown, {
       eventKey: 2,
       title: "| Get Involved",
       id: "GI-nav-dropdown"
@@ -46042,7 +46042,7 @@ class BCNNav extends _react.default.Component {
     }, "Specific Interests"), _react.default.createElement(_reactBootstrap.MenuItem, {
       eventKey: 2.3,
       href: "/WhatWeDo"
-    }, "Point System")))));
+    }, "Point System"))))));
   }
 
 }
