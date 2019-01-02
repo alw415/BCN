@@ -1,14 +1,16 @@
 body {
     background-color: black;
+} 
+
+#Social-Media {
+  background-color: aqua;
 }
 
 #GI-nav-dropdown {
   color: grey;
 }
 
-.logo {
 
-}
 img {
     float: left;
 }
@@ -272,6 +274,7 @@ img {
 
 .Promos {
   color: white;
+  font-size: 14pt;
 }
 
 .Community {
@@ -280,4 +283,5 @@ img {
 
 .WorkComp {
   color: white;
+  font-size: 14pt;
 }

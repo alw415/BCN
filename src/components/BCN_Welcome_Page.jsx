@@ -12,11 +12,11 @@ export default class Homepage extends Component {
         return(
              <div>
                 <Navbar/> 
-                 <Grid>
+                 <Grid id="main">
                      <div className="welcome">
                        <h1> Welcome to the Black Creators Network</h1>
                     </div>
-                    <div className="logo">
+                    <div className="logo-details">
                         <img src={logo} />
                         <div className="pictext">
                         PROVIDING SUPPORT 
@@ -27,6 +27,8 @@ export default class Homepage extends Component {
                     <div className="info">
                          <h3>The Black Creators Network provides support for black innovators by establishing a space for businesses to be promoted, informative resources to be exchanged, and community to be made by connecting individuals with one another</h3>
                     </div>
+                </Grid>
+                <Grid id="Social-Media">
                     <div className="links">
                         <div className="twitter-profile">
                             <a href="https://twitter.com/blkcreators">

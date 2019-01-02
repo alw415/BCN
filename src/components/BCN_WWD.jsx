@@ -34,7 +34,23 @@ export default class WWD extends Component{
 
                     <div className="WorkComp">
                         <h2><u>WORKSHOPS AND COMPETITIONS</u></h2>
-                            <p></p>
+                            <p>Each week, the leads of each of our departments prepare and pitch
+                                a competition or workshop to the members involved in their specified area 
+                                in order to help them develop their crafts, start their creative thinking, or assist
+                                them in establishing new ideas for their brands.
+                            </p>
+
+                            <p>In the workshops, if members feel as if they have expertise in the topic the workshop 
+                                is discussing, they can volunteer to help lead the workshop. That way they can develop their 
+                                leadship skills and gain membership points.
+
+                            </p>
+
+                            <p>The competitions give our members an opportunity to be showcased on our platform.
+                                Each participant's submission is posted on our pages for the duration of the
+                                competition and gains a membership point and the winner of the competition is highlighted
+                                exclusively, obtains more membership points, and recieves a special gift.
+                            </p>
                     </div>    
                 </Grid>
             </div>

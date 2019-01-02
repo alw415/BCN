@@ -46036,11 +46036,35 @@ class BCNNav extends _react.default.Component {
     }, _react.default.createElement(_reactBootstrap.MenuItem, {
       eventKey: 2.1,
       href: "/"
-    }, " General "), _react.default.createElement(_reactBootstrap.MenuItem, {
+    }, " General "), _react.default.createElement(_reactBootstrap.NavDropdown, {
       eventKey: 2.2,
-      href: "/AboutUs"
-    }, "Specific Interests"), _react.default.createElement(_reactBootstrap.MenuItem, {
+      title: "Specific Interests"
+    }, _react.default.createElement(_reactBootstrap.MenuItem, {
       eventKey: 2.3,
+      href: "/AboutUs"
+    }, " Beauty "), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.4,
+      href: "/AboutUs"
+    }, " Culinary "), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.5,
+      href: "/AboutUs"
+    }, " Fashion "), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.6,
+      href: "/AboutUs"
+    }, " Health "), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.7,
+      href: "/AboutUs"
+    }, " Media "), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.8,
+      href: "/AboutUs"
+    }, " Music "), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.9,
+      href: "/AboutUs"
+    }, " Tech "), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.10,
+      href: "/AboutUs"
+    }, " Writing ")), _react.default.createElement(_reactBootstrap.MenuItem, {
+      eventKey: 2.11,
       href: "/WhatWeDo"
     }, "Point System"))))));
   }
@@ -46086,17 +46110,21 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 class Homepage extends _react.Component {
   render() {
-    return _react.default.createElement("div", null, _react.default.createElement(_BCN_NavBar.default, null), _react.default.createElement(_reactBootstrap.Grid, null, _react.default.createElement("div", {
+    return _react.default.createElement("div", null, _react.default.createElement(_BCN_NavBar.default, null), _react.default.createElement(_reactBootstrap.Grid, {
+      id: "main"
+    }, _react.default.createElement("div", {
       className: "welcome"
     }, _react.default.createElement("h1", null, " Welcome to the Black Creators Network")), _react.default.createElement("div", {
-      className: "logo"
+      className: "logo-details"
     }, _react.default.createElement("img", {
       src: _BlkCreators_logo.default
     }), _react.default.createElement("div", {
       className: "pictext"
     }, "PROVIDING SUPPORT FOR BLACK INNOVATORS WORLDWIDE!!!")), _react.default.createElement("div", {
       className: "info"
-    }, _react.default.createElement("h3", null, "The Black Creators Network provides support for black innovators by establishing a space for businesses to be promoted, informative resources to be exchanged, and community to be made by connecting individuals with one another")), _react.default.createElement("div", {
+    }, _react.default.createElement("h3", null, "The Black Creators Network provides support for black innovators by establishing a space for businesses to be promoted, informative resources to be exchanged, and community to be made by connecting individuals with one another"))), _react.default.createElement(_reactBootstrap.Grid, {
+      id: "Social-Media"
+    }, _react.default.createElement("div", {
       className: "links"
     }, _react.default.createElement("div", {
       className: "twitter-profile"
@@ -46358,7 +46386,7 @@ class WWD extends _react.Component {
       className: "Community"
     }, _react.default.createElement("h2", null, _react.default.createElement("u", null, "PROVIDE COMMUNITY")), _react.default.createElement("p", null)), _react.default.createElement("div", {
       className: "WorkComp"
-    }, _react.default.createElement("h2", null, _react.default.createElement("u", null, "WORKSHOPS AND COMPETITIONS")), _react.default.createElement("p", null))));
+    }, _react.default.createElement("h2", null, _react.default.createElement("u", null, "WORKSHOPS AND COMPETITIONS")), _react.default.createElement("p", null, "Each week, the leads of each of our departments prepare and pitch a competition or workshop to the members involved in their specified area in order to help them develop their crafts, start their creative thinking, or assist them in establishing new ideas for their brands."), _react.default.createElement("p", null, "In the workshops, if members feel as if they have expertise in the topic the workshop is discussing, they can volunteer to help lead the workshop. That way they can develop their leadship skills and gain membership points."), _react.default.createElement("p", null, "The competitions give our members an opportunity to be showcased on our platform. Each participant's submission is posted on our pages for the duration of the competition and gains a membership point and the winner of the competition is highlighted exclusively, obtains more membership points, and recieves a special gift."))));
   }
 
 }
@@ -46430,7 +46458,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60701" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63375" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
